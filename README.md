@@ -1,6 +1,7 @@
 # C-OTP
 
-A minimal command-line Time-based One-Time Password (TOTP) generator written in C. It relies on OpenSSL for HMAC-SHA1 calculations and generates standard 6-digit codes.
+A minimal command-line Time-based One-Time Password (TOTP) generator written in C. Implements RFC 6238. 
+It relies on OpenSSL for HMAC-SHA1 calculations and generates standard 6-digit codes.
 
 ## Dependencies
 
