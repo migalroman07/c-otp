@@ -19,19 +19,19 @@ make
 ```
 
 ## Usage
-Run the program from your terminal. It will securely prompt you to enter your Base32 secret key:
+First, you need to put your codes and names for them in the my_keys.txt, separate with space on each line
+(e.g. "ABCDEFGHIJKLMNOPQ google.com")
+Names for codes will be displayed as well. Algorithm supports multiple codes in the file.
 
+Run the program from your terminal.
 ```bash
 ./totp 
 ```
-
-Example of interaction:
-
-```bash 
-TOTP Generator
-Please enter your Base32 secret key (e.g., JBSWY3DPEHPK3PXP):
-> JBSWY3DPEHPK3PXP
-Current Code: 123456
+##Example of output
+```
+============TOTP Generator============
+123456 example.com
+789012 some app
 ```
 
 ## Credits
