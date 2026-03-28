@@ -27,7 +27,7 @@ Run the program from your terminal.
 ```bash
 ./totp 
 ```
-##Example of output
+## Example of output
 ```
 ============TOTP Generator============
 123456 example.com
